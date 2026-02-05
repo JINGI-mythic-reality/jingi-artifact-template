@@ -1,0 +1,1 @@
+# jingi-artifact-template
