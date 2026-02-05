@@ -1,0 +1,30 @@
+name: Reproduction Report
+description: Artifactの再現実験・検証報告
+title: "[Repro] "
+labels: ["reproduction"]
+body:
+  - type: textarea
+    attributes:
+      label: 実行環境
+      description: OS / HW / ライブラリ等
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 実行手順
+      description: 実際に行った手順・コマンド
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 結果
+      description: 成功 / 失敗 / 差異
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: コメント
+      description: 気づいた点・改善提案
